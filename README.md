@@ -1,4 +1,3 @@
-<!-- #ZEROPS_REMOVE_START# -->
 # Zerops x Elastic Stack
 
 Elastic is a distributed search and analytics engine at the core of the Elastic Stack, designed for storing, searching, and analyzing large volumes of structured and unstructured data in near real-time.
@@ -104,6 +103,3 @@ services:
     envSecrets:
       SECRET_TOKEN: <@generateRandomString(<32>)>
 ```
-<!-- #ZEROPS_REMOVE_END# -->
-
-This is README.md of the `apm-server` recipe app.
