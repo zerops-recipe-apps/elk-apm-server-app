@@ -14,6 +14,8 @@ zerops:
       envVariables:
         ELASTICSEARCH_URL: http://elkstorage:9200 # Change, if your Elasticsearch runs on different hostname.
         ELASTICSEARCH_PASSWORD: ${elkstorage_password}
+        # Service vault `APM_SECRET` → envReplace placeholder in apm-server.yml.
+        SECRET_TOKEN: ${APM_SECRET}
       ports:
         - port: 8200
           httpSupport: true
